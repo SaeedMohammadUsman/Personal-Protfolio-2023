@@ -1,0 +1,35 @@
+/* #navbarNav{
+    align-items:right;
+} */
+
+#mimic{
+    height: 550px;
+}
+.about{
+    padding-top: 200px;
+}
+#footer-text{
+    padding-top: 150px;
+}
+hr{
+border: none;
+    background-color: black;
+    font-weight: bolder;
+    height: 5px;
+    
+}
+.img-container{
+   
+      
+     overflow: hidden;
+}
+img{
+    transition: transform 0.2s ease-in-out;
+}
+
+img:hover{
+    border: 1px solid red;
+   
+    transform: scale(0.90);
+
+}
