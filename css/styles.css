@@ -33,3 +33,32 @@ img:hover{
     transform: scale(0.90);
 
 }
+
+
+/* media  */
+@media (max-width:600px) { 
+
+    button i{
+        
+        font-weight: small !important;
+        font-size: small !important;
+    }
+   button.btn{
+       width: 100px !important;
+       margin: 1px !important   ;
+
+      
+    }
+    #two{
+      
+        display: block !important;
+    }
+    #two p {
+       margin-bottom: 5px !important;
+       
+        display: inline-block !important;
+        font-size: small !important;
+        justify-content: stretch !important;
+    }
+    
+}
